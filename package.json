@@ -2,11 +2,13 @@
   "name": "careers-front",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://asd4a10.github.io/careers",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test:unit": "vitest"
+    "test:unit": "vitest",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "pinia": "^2.0.36",
@@ -17,6 +19,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
     "@vue/test-utils": "^2.3.2",
+    "gh-pages": "^5.0.0",
     "jsdom": "^22.0.0",
     "vite": "^4.3.5",
     "vitest": "^0.31.0"
