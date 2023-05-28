@@ -1,12 +1,16 @@
 <template>
-  <div class="companies">
-    <h1>This is an companies page</h1>
-  </div>
+    <div class="companies w-100">
+        <h1>This is an companies page</h1>
+        <CompaniesList/>
+    </div>
 </template>
 
 <script>
+import CompaniesList from "@/components/companies/CompanyList.vue";
+
 export default {
-  name: "CompaniesView",
+    name: "CompaniesView",
+    components: {CompaniesList},
 };
 </script>
 
