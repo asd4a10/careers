@@ -1,7 +1,7 @@
 <template>
   <v-app-bar :elevation="2" density="compact">
     <v-container class="mx-auto d-flex">
-      <v-btn variant="text" to="/">Careers</v-btn>
+      <v-btn variant="text" to="/careers">Careers</v-btn>
       <v-btn variant="text" to="/companies">Companies</v-btn>
       <v-btn variant="text" to="/job-posts">Jobs</v-btn>
       <v-btn variant="text" to="/forum">Forum</v-btn>
